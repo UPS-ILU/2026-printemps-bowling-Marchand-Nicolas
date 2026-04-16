@@ -35,5 +35,14 @@ class GameTest {
 			game.roll(0);
 		assertEquals(6, game.score());
 	}
-
+	
+	@Test
+	void testPlusieursLancers() {
+		game.roll(4);
+		game.roll(0);
+		game.roll(16);
+		for (int i = 0; i < 17; i++) 
+			game.roll(0);
+		assertEquals(20, game.score());
+	}
 }
