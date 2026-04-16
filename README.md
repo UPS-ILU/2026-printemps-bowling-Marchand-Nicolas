@@ -21,7 +21,7 @@
 - [x] S'il y a plusieurs lancers, le score total doit être la somme des scores de chaque lancer
 - [x] S'il y a un spare, le nombre de quilles au lancer suivant est ajouté au score.
 - [x] Pour chaque spare obtenu, le premier lancer du tour suivant est ajouté en bonus au score global.
-- [ ] S'il y a un strike, le nombre de quilles aux 2 lancers suivant est ajouté au score.
+- [x] S'il y a un strike, le nombre de quilles aux 2 lancers suivant est ajouté au score.
 - [ ] Pour chaque strike obtenu, les 2 lancers du tour suivant sont ajoutés en bonus au score global.
 - [ ] Dans le dixième tour, si le joueur fait un strike, il peut lancer les boules supplémentaires
 - [ ] Dans le dixième tour, si le joueur fait un spare, il peut lancer les boules supplémentaires

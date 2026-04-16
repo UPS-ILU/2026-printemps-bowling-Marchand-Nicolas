@@ -67,4 +67,14 @@ class GameTest {
 			game.roll(0);
 		assertEquals(27, game.score());
 	}
+	
+	@Test
+	void testUnStrike() {
+		game.roll(10);
+		game.roll(1);
+		game.roll(3);
+		for (int i = 0; i < 16; i++) 
+			game.roll(0);
+		assertEquals(18, game.score());
+	}
 }
