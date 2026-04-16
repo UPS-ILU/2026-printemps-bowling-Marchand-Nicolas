@@ -55,4 +55,16 @@ class GameTest {
 			game.roll(0);
 		assertEquals(16, game.score());
 	}
+	
+	@Test
+	void testPlusieursSpare() {
+		game.roll(4);
+		game.roll(6);
+		game.roll(3);
+		game.roll(7);
+		game.roll(2);
+		for (int i = 0; i < 15; i++) 
+			game.roll(0);
+		assertEquals(27, game.score());
+	}
 }

@@ -12,7 +12,7 @@ public class Game {
 	public void roll(int nbQuilles) {
 		this.nbQuilles += nbQuilles;
 		if (nbQuillesTourPrecedent == QUILLES_MAX)
-			bonus = nbQuilles;
+			bonus += nbQuilles;
 		if (estPremierLancerTour()) 
 			nbQuillesTourPrecedent = nbQuilles;
 		else
