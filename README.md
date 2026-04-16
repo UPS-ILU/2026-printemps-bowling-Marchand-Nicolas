@@ -16,7 +16,7 @@
 ### Backlog:
 
 - [x] Si aucune quille n'est abattue, le score doit être de 0.
-- [ ] Si une quille est abattue, le score doit être de 1.
+- [x] Si une quille est abattue, le score doit être de 1.
 - [ ] Si plusieurs quilles sont abattues, le score doit être le nombre de quilles abattues.
 - [ ] S'il y a plusieurs lancers, le score total doit être la somme des scores de chaque lancer
 - [ ] S'il y a un spare, le nombre de quilles au lancer suivant est ajouté au score.

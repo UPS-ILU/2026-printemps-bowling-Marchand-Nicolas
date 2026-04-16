@@ -19,5 +19,13 @@ class GameTest {
 			game.roll(0);
 		assertEquals(0, game.score());
 	}
+	
+	@Test
+	void testUneQuille() {
+		game.roll(1);
+		for (int i = 0; i < 19; i++) 
+			game.roll(0);
+		assertEquals(1, game.score());
+	}
 
 }
