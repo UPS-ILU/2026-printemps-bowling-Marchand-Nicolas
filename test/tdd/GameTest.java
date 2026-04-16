@@ -27,5 +27,13 @@ class GameTest {
 			game.roll(0);
 		assertEquals(1, game.score());
 	}
+	
+	@Test
+	void testPlusieursQuilles() {
+		game.roll(6);
+		for (int i = 0; i < 19; i++) 
+			game.roll(0);
+		assertEquals(6, game.score());
+	}
 
 }
